@@ -1,5 +1,5 @@
 {
-	"name": "bonify/php-trello-api",
+	"name": "matteocacciola/php-trello-api",
 	"type": "library",
 	"description": "Trello API v2 client",
 	"homepage": "https://github.com/matteocacciola/php-trello-api",
