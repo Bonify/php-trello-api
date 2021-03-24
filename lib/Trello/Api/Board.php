@@ -276,6 +276,16 @@ class Board extends AbstractApi
     }
 
     /**
+     * Board CustomFields API
+     *
+     * @return Board\CustomFields
+     */
+    public function customfields()
+    {
+        return new Board\CustomFields($this->client);
+    }
+
+    /**
      * Board Labels API
      *
      * @return Board\Labels
